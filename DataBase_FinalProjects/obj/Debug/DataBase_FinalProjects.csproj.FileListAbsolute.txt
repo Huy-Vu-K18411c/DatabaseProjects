@@ -49,7 +49,6 @@ D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\bin\ros
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\bin\roslyn\VBCSCompiler.exe.config
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.csprojAssemblyReference.cache
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.csproj.CoreCompileInputs.cache
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.csproj.CopyComplete
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.dll

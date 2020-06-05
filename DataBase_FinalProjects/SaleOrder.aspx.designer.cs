@@ -10,51 +10,51 @@
 namespace DataBase_FinalProjects.View {
     
     
-    public partial class Home {
+    public partial class SaleOrder {
         
         /// <summary>
-        /// lblWelcome control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWelcome;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lblOrder control.
+        /// lblNameProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOrder;
+        protected global::System.Web.UI.WebControls.Label lblNameProduct;
         
         /// <summary>
-        /// lblQuantity control.
+        /// lblPriceProductA control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblQuantity;
+        protected global::System.Web.UI.WebControls.Label lblPriceProductA;
         
         /// <summary>
-        /// lblRevenue control.
+        /// btnAddToCart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRevenue;
+        protected global::System.Web.UI.WebControls.LinkButton btnAddToCart;
         
         /// <summary>
-        /// lblNote control.
+        /// dynamicDiv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNote;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dynamicDiv;
     }
 }

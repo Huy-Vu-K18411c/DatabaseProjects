@@ -66,7 +66,7 @@ h4 {
     max-height:100%;
     color: white;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 5fr
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 5fr;
 }
 
 .content{
@@ -82,6 +82,11 @@ h4 {
 .datatable {
     max-height: 60vh;
     min-height: 50vh;
+}
+
+.half-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .left-middle-content {
@@ -131,14 +136,21 @@ h4 {
     padding-left: 100px;
 }
 
-.dashboard{
-    min-height: 10vh;
+.dashboard {
+    min-height: 20vh;
     margin-left: 0;
     margin-right: 20px;
-    background-color: green;
+    background-color: #e7e7e7;
     border-radius: 5px;
     box-shadow: 3px 3px 4px black;
     color: white;
     font-size: 1em;
 }
+
+.dashboard > *{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
 

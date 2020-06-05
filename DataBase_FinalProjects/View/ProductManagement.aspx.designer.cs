@@ -49,40 +49,40 @@ namespace DataBase_FinalProjects.View {
         protected global::System.Web.UI.WebControls.PlaceHolder phdDataTable;
         
         /// <summary>
-        /// btnAdd control.
+        /// btnAddProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdd;
+        protected global::System.Web.UI.WebControls.Button btnAddProduct;
         
         /// <summary>
-        /// btnDelete control.
+        /// btnDeleteProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDelete;
+        protected global::System.Web.UI.WebControls.Button btnDeleteProduct;
         
         /// <summary>
-        /// btnFix control.
+        /// btnFixProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFix;
+        protected global::System.Web.UI.WebControls.Button btnFixProduct;
         
         /// <summary>
-        /// btnStatistic control.
+        /// btnStatisticProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnStatistic;
+        protected global::System.Web.UI.WebControls.Button btnStatisticProduct;
         
         /// <summary>
         /// tbReport control.

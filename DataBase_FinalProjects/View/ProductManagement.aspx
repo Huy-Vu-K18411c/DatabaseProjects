@@ -17,11 +17,29 @@
         </asp:Table>
         <asp:PlaceHolder ID="phdDataTable" runat="server"></asp:PlaceHolder>
     </div>
+    <div class="half-grid">
+        <div>
+            <label>Product Name:</label>
+            <input id="txtProductName" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+        </div>    
+        <div>
+            <label>Product...:</label>
+            <input id="txtsth" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+        </div>
+        <div>
+            <label>Product...:</label>
+            <input id="txtsth2" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+        </div>
+        <div>
+            <label>Product...:</label>
+            <input id="txtsth3" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+        </div>
+    </div>
     <div class="controllers">
-        <asp:Button ID="btnAdd" class="button" runat="server" Text="Add a product" />
-        <asp:Button ID="btnDelete" class="button" runat="server" Text="Delete" />
-        <asp:Button ID="btnFix" class="button" runat="server" Text="Fix" />
-        <asp:Button ID="btnStatistic" class="button" runat="server" Text="Statistic"/>
+        <asp:Button ID="btnAddProduct" class="button" runat="server" Text="Add a product" />
+        <asp:Button ID="btnDeleteProduct" class="button" runat="server" Text="Delete" />
+        <asp:Button ID="btnFixProduct" class="button" runat="server" Text="Fix" />
+        <asp:Button ID="btnStatisticProduct" class="button" runat="server" Text="Statistic"/>
     </div>
     <h2>Statistical report</h2>
     <div class="datatable">

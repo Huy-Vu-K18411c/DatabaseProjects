@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -48,7 +49,7 @@ namespace DataBase_FinalProjects.Libs
         //Data Source =.; Initial Catalog = HELPDESK; Persist Security Info=True;User ID = helpdesk; Password=123456
 
         //Khai báo cấu hình kết nối cố định - lưu vào code
-        public SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=HELPDESK;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-KREPEUTL;Initial Catalog=QLKD_ThoiTrang;Integrated Security=True");
 
         //Khai báo cấu hình kết nối từ file cấu hình Setting, dễ dàng khi đi mang đi cài đặt
         //public SqlConnection con = new SqlConnection(Properties.Settings.Default.ConnectionString);

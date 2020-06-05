@@ -67,12 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\img\logo.jpg" />
+    <Content Include="Assets\style\saleorderstyle.css" />
     <Content Include="Assets\style\style.css" />
     <Content Include="Global.asax" />
     <Content Include="View\CustomerManagement.aspx" />
     <Content Include="View\Home.aspx" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\ProductManagement.aspx" />
+    <Content Include="SaleOrder.aspx" />
     <Content Include="View\StaffManagement.aspx" />
     <Content Include="View\WarehouseManagement.aspx" />
     <Content Include="Web.config" />
@@ -81,6 +84,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Libs\Database.cs" />
+    <Compile Include="Libs\Username.cs" />
+    <Compile Include="Libs\Validation.cs" />
     <Compile Include="Master\AdminPage.Master.cs">
       <DependentUpon>AdminPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,6 +123,13 @@
     <Compile Include="View\ProductManagement.aspx.designer.cs">
       <DependentUpon>ProductManagement.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SaleOrder.aspx.cs">
+      <DependentUpon>SaleOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleOrder.aspx.designer.cs">
+      <DependentUpon>SaleOrder.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\StaffManagement.aspx.cs">
       <DependentUpon>StaffManagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,8 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\img\" />
-    <Folder Include="Libs\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
