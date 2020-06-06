@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPage.master.cs" Inherits="DataBase_FinalProjects.Master.AdminPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Assets/style/style.css" rel="stylesheet" />
+    <link href="../Assets/img/logo.jpg" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="nav-bar">
+                <a style="font-family: 'Courgette', cursive; background-color: #A12;" class="middle-content" href="/View/Home.aspx">SQUEE</a>
+                <a href="../View/Home.aspx" class="left-middle-content"><i class="fas fa-home"></i>&nbsp Home</a>
+                <a class="left-middle-content" href="../View/ProductManagement.aspx"><i class="fas fa-tshirt"></i>&nbsp Product Management</a>
+                <a class="left-middle-content" href="../View/StaffManagement.aspx"><i class="fas fa-female"></i>&nbsp Staff Management</a>
+                <a class="left-middle-content" href="../View/WarehouseManagement.aspx"><i class="fas fa-warehouse"></i>&nbsp Warehouse Management</a>
+                <a class="left-middle-content" href="../View/CustomerManagement.aspx"><i class="fas fa-user-friends"></i>&nbsp Customer Management</a>
+                <a class="left-middle-content" href="#"><i class="fas fa-cog"></i>&nbsp Settings</a>
+                <asp:LinkButton ID="btnLog" CssClass="left-middle-content" style="color:white" runat="server"><i class="fas fa-sign-out-alt"></i>&nbsp Log Out</asp:LinkButton>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

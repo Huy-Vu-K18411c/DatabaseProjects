@@ -1,0 +1,100 @@
+﻿body {
+    font-family: lato, sans-serif;
+    background-color: #e7e7e7;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+    a:visited {
+        color: black;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+    background-color: #A12;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+    .nav-bar li a {
+        display: block;
+        padding: 16px 32px;
+        float: left;
+        color: white;
+    }
+
+    .nav-bar li:hover a {
+        background-color: #A12;
+        transition: all 0.1s ease;
+    }
+
+.nav-bar {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.main-product {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
+.img-main img {
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.middle-content-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 0;
+}
+
+.button {
+    padding: 8px 16px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #A12;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.many-products-else {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
