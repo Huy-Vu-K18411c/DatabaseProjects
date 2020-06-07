@@ -64,6 +64,7 @@ h4 {
 .nav-bar{
     background-color: #202d3f;
     max-height:100%;
+    min-width: 200px;
     color: white;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 5fr;
@@ -80,13 +81,14 @@ h4 {
 }
 
 .datatable {
+    height: 400px;
     max-height: 60vh;
-    min-height: 50vh;
 }
 
 .half-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
 }
 
 .left-middle-content {
@@ -106,8 +108,8 @@ h4 {
     height: 100vh;
     flex-direction: column;
     color: white;
-    background-color:white;
-    background-image: url("https://images.pexels.com/photos/4016535/pexels-photo-4016535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: white;
+    background-image: url("https://images.wallpaperscraft.com/image/code_letters_screen_137590_1920x1080.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

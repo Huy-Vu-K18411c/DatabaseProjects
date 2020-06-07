@@ -7,43 +7,64 @@
     </h1>
     <div class="same-row">
         <h4><i class="fas fa-filter"></i>&nbsp Filter</h4>
-        <asp:DropDownList Style="width: 200px" ID="ddlFilter" runat="server">
+        <asp:DropDownList Style="width: 200px" ID="ddlFilter" AutoPostBack="true" runat="server" OnSelectedIndexChanged="ddlFilter_SelectedIndexChanged" OnTextChanged="ddlFilter_TextChanged">
         </asp:DropDownList>
     </div>
-    <div class="datatable">
-        <asp:Table ID="tbDataTable" runat="server">
-            
-        </asp:Table>
-        <asp:PlaceHolder ID="phdDataTable" runat="server"></asp:PlaceHolder>
+    <div style="overflow: scroll; overflow-x:hidden" class="datatable">
+        <asp:Panel ID="pn01" runat="server">
+            <asp:GridView AutoGenerateColumns="false" ID="gvDataWareHouse" runat="server" OnSelectedIndexChanged="gvDataWareHouse_SelectedIndexChanged" AutoGenerateSelectButton="True">
+                <Columns>
+                    <asp:BoundField DataField="OrderId" HeaderText="Order ID"/>
+                    <asp:BoundField DataField="CustomerSurname" HeaderText="Customer Surname"/>
+                    <asp:BoundField DataField="CustomerName" HeaderText="Customer Name"/>
+                    <asp:BoundField DataField="CreateDate" HeaderText="Create Date"/>
+                    <asp:BoundField DataField="TotalValue" HeaderText="Total Value"/>
+                    <asp:BoundField DataField="Status" HeaderText="Status"/>
+                </Columns>
+            </asp:GridView>
+        </asp:Panel>
     </div>
     <div class="half-grid">
         <div>
-            <label>Sth Name:</label>
-            <input id="txtProductName" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+            <label>Order ID:</label>
+            <asp:TextBox ID="txtOrderId" runat="server" ReadOnly="true" placeholder="Type something" OnTextChanged="txtOrderId_TextChanged"></asp:TextBox>
         </div>    
         <div>
-            <label>Sth...:</label>
-            <input id="txtsth" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+            <label>Create Date:</label>
+            <asp:TextBox ID="txtCreateDate" runat="server" ReadOnly="true" placeholder="Type something"></asp:TextBox>
         </div>
         <div>
-            <label>Sth...:</label>
-            <input id="txtsth2" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+            <label>Customer Surname:</label>
+            <asp:TextBox ID="txtCustomerSurname" runat="server" ReadOnly="true" placeholder="Type something"></asp:TextBox>
         </div>
         <div>
-            <label>Sth...:</label>
-            <input id="txtsth3" type="text" placeholder="Duplicate this div if you want a new lable + input" />
+            <label>Customer Name:</label>
+             <asp:TextBox ID="txtCustomerName" runat="server" ReadOnly="true" placeholder="Type something"></asp:TextBox>
+        </div>
+        <div>
+            <label>Total Value:</label>
+             <asp:TextBox ID="txtTotalValue" runat="server" ReadOnly="true" placeholder="Type something"></asp:TextBox>
+        </div>
+        <div>
+            <label>Status:</label>
+             <asp:TextBox ID="txtStatus" runat="server" ReadOnly="true" placeholder="Type something"></asp:TextBox>
         </div>
     </div>
     <div class="controllers">
-        <asp:Button ID="btnAddSth" class="button" runat="server" Text="Add a Sth" />
-        <asp:Button ID="btnDeleteSth" class="button" runat="server" Text="Delete" />
-        <asp:Button ID="btnFixSth" class="button" runat="server" Text="Fix" />
-        <asp:Button ID="btnStatisticSth" class="button" runat="server" Text="Statistic"/>
+        <asp:Button ID="btnAddSth" class="button" runat="server" Text="Find an Order" />
     </div>
-    <h2>Statistical report</h2>
-    <div class="datatable">
-        <asp:Table ID="tbReport" runat="server">
-        </asp:Table>
-        <asp:PlaceHolder ID="phdReport" runat="server"></asp:PlaceHolder>
+    <h2>Order Detail</h2>
+    <div style="overflow: scroll; overflow-x:hidden" class="datatable">
+        <asp:Panel ID="pn02" runat="server">
+            <asp:GridView AutoGenerateColumns="false" ID="gvOrderDetail" runat="server" OnSelectedIndexChanged="gvDataWareHouse_SelectedIndexChanged" >
+                <Columns>
+                    <asp:BoundField DataField="OrderId" HeaderText="Order ID"/>
+                    <asp:BoundField DataField="ProductName" HeaderText="Product Name"/>
+                    <asp:BoundField DataField="Size" HeaderText="Size"/>
+                    <asp:BoundField DataField="Quantity" HeaderText="Quantity"/>
+                    <asp:BoundField DataField="OutputPrice" HeaderText="Output Price"/>
+                </Columns>
+            </asp:GridView>
+        </asp:Panel>
     </div>
 </asp:Content>

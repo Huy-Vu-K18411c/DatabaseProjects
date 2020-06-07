@@ -5,12 +5,8 @@ using System.Web;
 
 namespace DataBase_FinalProjects.Libs
 {
-    public class Username
+    public class product
     {
-        public string username { get; set; }
-        public Username()
-        {
-
-        }
+        public string productId { get; set; }
     }
 }

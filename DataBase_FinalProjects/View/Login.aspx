@@ -16,12 +16,15 @@
                     <label>Password</label>
                 </div>
                 <div class="flex-column">
-                    <input id="txtAccount" type="text" />
-                    <input id="txtPassword" type="text" />
+                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
                 </div>
             </div>
+            <div>
+                <asp:Label ID="lblWarning" Visible="false" runat="server" Text="Label"></asp:Label>
+            </div>
             <div class="controllers">
-                <asp:Button ID="btnLogin" class="button" runat="server" Text="Login" />
+                <asp:Button ID="btnLogin" class="button" runat="server" Text="Login" OnClick="btnLogin_Click" />
             </div>
         </div>
     </form>

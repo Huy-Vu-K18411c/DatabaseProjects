@@ -53,3 +53,4 @@ D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Deb
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.csproj.CopyComplete
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.dll
 D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.pdb
+D:\Material\ASPNetProjects\DataBase_FinalProjects\DataBase_FinalProjects\obj\Debug\DataBase_FinalProjects.csprojAssemblyReference.cache

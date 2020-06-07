@@ -5,18 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace DataBase_FinalProjects.Master
+namespace DataBase_FinalProjects
 {
-    public partial class AdminPage : System.Web.UI.MasterPage
+    public partial class Cart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnLog_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("/View/Login.aspx");
         }
     }
 }

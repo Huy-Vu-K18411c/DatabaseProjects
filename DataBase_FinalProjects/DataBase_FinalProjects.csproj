@@ -67,9 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\img\calendar.svg" />
     <Content Include="Assets\img\logo.jpg" />
     <Content Include="Assets\style\saleorderstyle.css" />
     <Content Include="Assets\style\style.css" />
+    <Content Include="Cart.aspx" />
     <Content Include="Global.asax" />
     <Content Include="View\CustomerManagement.aspx" />
     <Content Include="View\Home.aspx" />
@@ -81,10 +83,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Libs\Database.cs" />
+    <Compile Include="Libs\product.cs" />
     <Compile Include="Libs\Username.cs" />
     <Compile Include="Libs\Validation.cs" />
     <Compile Include="Master\AdminPage.Master.cs">

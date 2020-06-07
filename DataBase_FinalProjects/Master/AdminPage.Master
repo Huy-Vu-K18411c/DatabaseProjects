@@ -22,7 +22,7 @@
                 <a class="left-middle-content" href="../View/WarehouseManagement.aspx"><i class="fas fa-warehouse"></i>&nbsp Warehouse Management</a>
                 <a class="left-middle-content" href="../View/CustomerManagement.aspx"><i class="fas fa-user-friends"></i>&nbsp Customer Management</a>
                 <a class="left-middle-content" href="#"><i class="fas fa-cog"></i>&nbsp Settings</a>
-                <asp:LinkButton ID="btnLog" CssClass="left-middle-content" style="color:white" runat="server"><i class="fas fa-sign-out-alt"></i>&nbsp Log Out</asp:LinkButton>
+                <asp:LinkButton ID="btnLog" CssClass="left-middle-content" style="color:white" runat="server" OnClick="btnLog_Click"><i class="fas fa-sign-out-alt"></i>&nbsp Log Out</asp:LinkButton>
             </div>
             <div class="content">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
